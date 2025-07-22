@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>扫码或点击拨打</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .qr-container {
+            margin: 20px auto;
+        }
+        .dial-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background-color: #4CAF50; /* 绿色按钮 */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .dial-button:hover {
+            background-color: #45a049; /* 深绿色悬停效果 */
+        }
+    </style>
+</head>
+<body>
+    <h2>请扫码或点击下方按钮拨打</h2>
+    
+    <!-- 替换为你的二维码图片 -->
+    <div class="qr-container">
+        <img src="下载.png" alt="拨号二维码" width="200">
+    </div>
+
+    <!-- 拨号按钮（点击直接拨打电话） -->
+    <a href="tel:18580585751" class="dial-button">点击拨打 18580585751</a>
+</body>
+</html>
